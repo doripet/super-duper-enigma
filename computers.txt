@@ -1,0 +1,2 @@
+Intel 2.5 Asus1 nvidia rtx1 9000 8
+dd 2.4 ef dd ff 1111 4
