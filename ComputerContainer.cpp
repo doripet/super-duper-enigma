@@ -8,7 +8,7 @@ ComputerContainer::~ComputerContainer() {}
 void ComputerContainer::addComputer(const Computer& computer) {
     computers.push_back(computer);
 }
-
+//добавление функций
 void ComputerContainer::removeComputer(int index) {
     if (index >= 0 && index < computers.size()) {
         computers.erase(computers.begin() + index);
@@ -17,6 +17,7 @@ void ComputerContainer::removeComputer(int index) {
         std::cerr << "Индекс вне диапазона!" << std::endl;
     }
 }
+//111коммит...)(
 //проверка открытия файла
 void ComputerContainer::loadFromFile(const std::string& filename) {
     std::ifstream file(filename);
